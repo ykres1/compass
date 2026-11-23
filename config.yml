@@ -1,0 +1,10 @@
+# Damage in HP. 10 HP = 5 hearts.
+dash-damage: 10.0
+# How far you can be from the player you're looking at (blocks)
+dash-range: 25.0
+# How far past the target you land (blocks)
+dash-overshoot: 2.0
+dash-cooldown-seconds: 3
+# Players within this many blocks (same world) show up in the teleport menu
+teleport-radius: 400.0
+teleport-cooldown-seconds: 30

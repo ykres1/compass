@@ -1,0 +1,15 @@
+name: DashCompass
+version: 1.0.0
+main: dev.server.dashcompass.DashCompass
+api-version: '1.21'
+description: A compass that dashes through players and teleports to nearby ones.
+commands:
+  dashcompass:
+    description: Give yourself (or someone) the Dash Compass
+    usage: /dashcompass [player]
+    permission: dashcompass.give
+permissions:
+  dashcompass.give:
+    default: op
+  dashcompass.use:
+    default: true
